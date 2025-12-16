@@ -25,10 +25,10 @@ jobs:
   build-and-push:
     name: Build and Push Docker Image
     runs-on:
-      # ubuntu-latest
-      - self-hosted
-      - linux
-      - x64
+      ubuntu-latest
+      # - self-hosted
+      # - linux
+      # - x64
     
     steps:
       - name: Checkout code
